@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Pacifico&family=Poppins:ital,wght@1,100&display=swap');
+
+body{
+    background-color: rgb(66, 66, 211);
+}
+.holder{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 80px;
+}
+
+.content{
+    margin-top: 40px;
+    display: grid;
+    grid-template: repeat(3, 90px) / repeat(3, 90px);
+    margin-left: 600px;
+}
+
+.boxes{
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px; 
+    border-radius: 10px;  
+}
+
+.conclude{
+    color: aliceblue;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 30px;
+}

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Pacifico&family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka:wght@300&family=Pacifico&family=Poppins:ital,wght@1,100&display=swap');
 
 body{
-    background-color: rgb(66, 66, 211);
+    background-color: dodgerblue
 }
 .holder{
     text-align: center;
@@ -11,15 +9,17 @@ body{
 }
 
 .heading{
-    font-family: 'Bungee Spice', sans-serif;
-    font-size: 80px;
+    font-family: 'Fredoka One' ,cursive;
+    font-size: 70px;
+    -webkit-text-stroke: 3px white;
+    color: #FAB201;
 }
 
 .content{
     margin-top: 40px;
     display: grid;
     grid-template: repeat(3, 90px) / repeat(3, 90px);
-    margin-left: 600px;
+    margin-left: 610px;
 }
 
 .boxes{
@@ -30,11 +30,11 @@ body{
 }
 
 .conclude{
-    color: aliceblue;
     font-family: 'Caveat Brush', cursive;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fredoka', sans-serif;
+    margin-left: 25px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
+    -webkit-text-stroke: 5px white;
 }
